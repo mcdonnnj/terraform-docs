@@ -70,3 +70,9 @@ require (
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 )
+
+replace github.com/terraform-docs/terraform-docs => github.com/mcdonnnj/terraform-docs v0.0.0-20240119214535-10a6364f2274
+
+replace github.com/terraform-docs/terraform-docs/cmd => github.com/mcdonnnj/terraform-docs/cmd v0.0.0-20240119214535-10a6364f2274
+
+replace github.com/terraform-docs/terraform-docs/print => github.com/mcdonnnj/terraform-docs/print v0.0.0-20240119214535-10a6364f2274
